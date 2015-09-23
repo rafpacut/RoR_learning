@@ -14,7 +14,9 @@ class User < ActiveRecord::Base
 
 
 	has_secure_password
-	validates :password, presence: true, length: { minimum: 6 }
+	#allow_nil doesn't allow to create empty password, becouse has_secure_password
+	#includes a separate presence validation on object creation
+	validates :password, presence: true, length: { minimum: 6 }, allow_nil: true
 
 	#Returns the hash digest of the given string
 	def User.digest(string)
