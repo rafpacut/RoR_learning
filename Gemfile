@@ -59,3 +59,9 @@ gem 'bcrypt',	'3.1.7'
 
 #Creating users with semi-realistic names and emails
 gem 'faker',	'1.4.2'	
+
+#Paginate user index
+gem 'will_paginate',	'3.0.7'
+
+#Configures will_paginate to use bootstrap
+gem 'bootstrap-will_paginate',	'0.0.10'
