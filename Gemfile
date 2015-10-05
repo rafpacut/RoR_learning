@@ -56,3 +56,6 @@ end
 
 #hashing fuction for storing passwords
 gem 'bcrypt',	'3.1.7'
+
+#Creating users with semi-realistic names and emails
+gem 'faker',	'1.4.2'	
