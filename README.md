@@ -1,1 +1,1 @@
-Sample app created by following railtutorial.org
+Twitter-like app created by following railstutorial.org
