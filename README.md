@@ -1,4 +1,5 @@
 Twitter-like app created by following railstutorial.org
 
-News feed for followed users mechanism.
+Following users mechanism.  
+News feed for followed users.
 Uploading and resizing images.
